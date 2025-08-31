@@ -69555,7 +69555,7 @@ A.Mk.prototype={
 q0(){var s=0,r=A.U(t.H),q=this,p
 var $async$q0=A.Q(function(a,b){if(a===1)return A.R(b,r)
 while(true)switch(s){case 0:s=2
-return A.X(A.aET(A.fE("https://zenquotes.io/api/random",0,null)),$async$q0)
+return A.X(A.aET(A.fE("https://api.allorigins.win/raw?url=https://zenquotes.io/api/random",0,null)),$async$q0)
 case 2:p=b
 if(p.b===200)q.aI(new A.abT(q,B.cV.Lo(0,A.aEF(A.aCy(p.e)).ep(0,p.w),null)))
 else A.ah2().$1("Could not get data")
